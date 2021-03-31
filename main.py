@@ -33,7 +33,7 @@ if __name__ == '__main__':
                 'average score %.1f' % avg_score,
                 'epsilon %.2f' % agent.epsilon)
 
-    filename='keras_lunar_lander.png'
+    filename='snakeAI_Results.png'
     x = [i+1 for i in range(n_games)]
     plotLearning(x, scores, eps_history, filename)
 
